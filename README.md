@@ -74,3 +74,4 @@ Now the plugins should be available in Bitwig Studio.
 
 -   investigate building on GitHub and publishing container images
     -   possible copyright ramifications?
+-   figure out if it's possible to pass just recipe arguments to a subcommand without doing this quoting thing
