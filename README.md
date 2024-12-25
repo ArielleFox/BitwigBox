@@ -16,7 +16,7 @@ Make sure these are installed on your host system.
 
 -   [Distrobox](https://distrobox.it/)
 -   [Podman](https://podman.io/)
--   [just][https://just.systems/]
+-   [just](https://just.systems/)
 
 ## Usage
 
