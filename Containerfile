@@ -3,7 +3,7 @@ COPY / /
 
 FROM quay.io/toolbx/ubuntu-toolbox:24.10
 
-ARG BITWIG_VERSION=5.3.2
+ARG BITWIG_VERSION=5.3.5
 ARG YABRIDGE_VERSION=5.1.1
 ARG WINE_VERSION=9.21~oracular-1
 
