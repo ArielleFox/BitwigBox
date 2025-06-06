@@ -8,7 +8,7 @@ install-development-dependecies-debian:
 	sudo apt install alien
 
 install-development-dependecies-fedora:
-	sudo dnf5 install alien
+	sudo dnf5 install -y alien
 
 build: download
 	mkdir -p /tmp/bitbox-convertion/scripts/
