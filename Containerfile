@@ -1,11 +1,11 @@
 FROM scratch AS ctx
 COPY / /
 
-FROM quay.io/toolbx/ubuntu-toolbox:24.10
+FROM quay.io/toolbx/ubuntu-toolbox:24.04 
 
-ARG BITWIG_VERSION=5.2.7
+ARG BITWIG_VERSION=5.3.8
 ARG YABRIDGE_VERSION=5.1.1
-ARG WINE_VERSION=9.21~oracular-1
+ARG WINE_VERSION=9.21~noble-1
 
 # deps
 RUN --mount=type=bind,from=ctx,src=/,dst=/ctx \
